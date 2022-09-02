@@ -1,0 +1,88 @@
+﻿@using Microsoft.AspNetCore.Http;
+@using Newtonsoft.Json;
+@{
+    
+
+
+        Usuario u = JsonConvert.DeserializeObject<Usuario>
+            (Context.Session.GetString("user").ToString());
+    
+}
+
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/CSS/publicacao.css">
+    <title>Publicação</title>
+</head>
+
+<body>
+
+    <div class="conteiner">
+
+        <div class="titulo">
+            <p>PROJETO</p>
+            <hr>
+        </div>
+
+        <form method="post" enctype="multipart/form-data">
+            <div class="container">
+
+                <div class="cl-1">
+
+                    <div>
+                        <input type="text" name="nome" placeholder="NOME DO PROJETO">
+                    </div>
+
+                    <div>
+                        <input type="text" name="desc" placeholder="DESCRIÇÃO">
+                    </div>
+
+                    <div>
+                        <input type="file" name="arquivo">
+                    </div>
+
+                </div>
+
+                <div class="cl-2">
+
+                    <div>
+                        <label for="tipo" class="tipo">SELECIONE A CATEGORIA:</label>
+
+                        <select name="tag" id="tipo">
+                            <option>Selecione</option>
+                            <option value="Tecnologia">Tecnologia</option>
+                            <option value="Ciencia">Ciencia</option>
+                            <option value="Educacao">Educação</option>
+                        </select>
+                    </div>
+
+                    <div>
+                        <input value="@u.Doc" name="doc" />
+                        <label for="tipo" class="tipo">SELECIONE O CUSTO MIN PARA INVESTIMENTO:</label>
+
+                        <select name="custo" id="tipo">
+                            <option>Selecione</option>
+                            <option value="100.00">100,00</option>
+                            <option value="500.00">500,00</option>
+                            <option value="1000.00">1000,00</option>
+                        </select>
+                    </div>
+
+
+                    <button type="submit">
+                        PUBLICAR PROJETO
+                    </button>
+                </div>
+            </div>
+        </form>
+
+    </div>
+
+</body>
+
+</html>
