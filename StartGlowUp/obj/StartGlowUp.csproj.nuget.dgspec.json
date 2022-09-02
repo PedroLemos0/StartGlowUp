@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\aluno\\Downloads\\StartGlowUp\\StartGlowUp\\StartGlowUp\\StartGlowUp.csproj": {}
+    "C:\\Users\\aluno\\Downloads\\StartGlowUp (1)\\StartGlowUp\\StartGlowUp\\StartGlowUp.csproj": {}
   },
   "projects": {
-    "C:\\Users\\aluno\\Downloads\\StartGlowUp\\StartGlowUp\\StartGlowUp\\StartGlowUp.csproj": {
+    "C:\\Users\\aluno\\Downloads\\StartGlowUp (1)\\StartGlowUp\\StartGlowUp\\StartGlowUp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\aluno\\Downloads\\StartGlowUp\\StartGlowUp\\StartGlowUp\\StartGlowUp.csproj",
+        "projectUniqueName": "C:\\Users\\aluno\\Downloads\\StartGlowUp (1)\\StartGlowUp\\StartGlowUp\\StartGlowUp.csproj",
         "projectName": "StartGlowUp",
-        "projectPath": "C:\\Users\\aluno\\Downloads\\StartGlowUp\\StartGlowUp\\StartGlowUp\\StartGlowUp.csproj",
+        "projectPath": "C:\\Users\\aluno\\Downloads\\StartGlowUp (1)\\StartGlowUp\\StartGlowUp\\StartGlowUp.csproj",
         "packagesPath": "C:\\Users\\aluno\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\aluno\\Downloads\\StartGlowUp\\StartGlowUp\\StartGlowUp\\obj\\",
+        "outputPath": "C:\\Users\\aluno\\Downloads\\StartGlowUp (1)\\StartGlowUp\\StartGlowUp\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\"

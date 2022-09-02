@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "+ufDL099WKqysZtalY2XaHNRjUtkbDat6HyWYozlAtB6ytNFz2hFwIOT8AgD1COuUrCXGrJSjxm9HW+BVgu+cA==",
+  "dgSpecHash": "4ZK/x8ouoJ0Ky7pGyYBm5C++9iZbmSxPL1+ll5mcPU2y/s3jAVlX9LqIfnlJmVct1QqXql2XspFdzNIBTvTFJQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\aluno\\Downloads\\StartGlowUp\\StartGlowUp\\StartGlowUp\\StartGlowUp.csproj",
+  "projectFilePath": "C:\\Users\\aluno\\Downloads\\StartGlowUp (1)\\StartGlowUp\\StartGlowUp\\StartGlowUp.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\aluno\\.nuget\\packages\\google.protobuf\\3.19.4\\google.protobuf.3.19.4.nupkg.sha512",
     "C:\\Users\\aluno\\.nuget\\packages\\k4os.compression.lz4\\1.2.6\\k4os.compression.lz4.1.2.6.nupkg.sha512",
